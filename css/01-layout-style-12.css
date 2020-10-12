@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #fdc7ff;
+    height: 150px;
+}
+
+nav {
+    background-color: #9a14ec;
+    height: 50px;
+}
+
+aside {
+    background-color: #fc9aff;
+    width: 150px;
+}
+
+main {
+    background-color: white;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #cb87f5;
+    height: 150px;
+}
